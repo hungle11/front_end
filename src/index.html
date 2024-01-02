@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    @keyframes wave {
+        0% {
+            transform: scale(1);
+        }
+    
+        50% {
+            transform: scale(1.5);
+        }
+    
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+<body class="container mx-auto">
+  <div class="container mx-auto p-4 flex justify-center gap-20">
+    <div>
+        <img src="./image/image 2.png" alt="">
+    </div>
+    <div>
+        <div>
+            <div class="relative mt-2 rounded-md shadow-sm">
+              <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                <span class="text-gray-500 sm:text-sm "><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                    <path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path>
+                    </svg></span>
+              </div>
+              <input type="text" name="price" id="price" class="block w-full rounded-md ml-3 border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Want to learn speaking?">
+              <div class="absolute inset-y-0 right-0 flex items-center">
+                <select id="currency" name="currency" class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                  <option><p class="text-teal-500">ABC</p></option>
+                  <option>CAD</option>
+                  <option>EUR</option>
+                </select>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="flex mt-3 gap-3">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact us</a>
+        <a href="#">FAQ's</a>
+    </div>
+    <div>
+        <a class="mr-3" href="#">Sign in</a>
+        <button type="button" class="rounded-lg bg-teal-500 p-2 text-white">Create free account</button>
+    </div>
+  </div>
+
+<div class="flex justify-between mt-16">
+   
+    <div class="relative  w-36 h-36 container mx-auto">
+        <div class='w-56 h-60 rounded-full absolute top-10 left-12 animate-spin'>
+            <div class="w-2 h-2 rounded-full bg-green-400"></div>
+        </div>
+        <div class="w-2/5 relative">
+            <div class='w-80 h-80 opacity-60 border border-[#20b486] rounded-full flex justify-center items-center'>
+                <div class='w-64 h-64 border border-[#20b486] rounded-full flex justify-center items-center'>
+                    <div class='w-48 h-48 border border-[#20b486] rounded-full flex justify-center items-center'>
+                        <p class='absolute top-28 left-20'>Text</p>
+                        <div class='w-28 h-28 border border-[#20b486] rounded-full flex justify-center items-center'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute top-8 left-20 z-10">
+                <p class='text-5xl font-bold'>Text</p>
+                <div class="flex gap-3 my-8">
+                    <button class='rounded-md py-3 px-4 bg-[#20b486] text-white'>Get Started</button>
+                    <button class='rounded-md py-3 px-4 bg-green-100 text-green-500'>Get free trial</button>
+                </div>
+                <div class="">
+                    <ul class='flex gap-8 justify-center items-center'>
+                        <li class='flex gap-2'>
+                            <img src="./image/listioning.png" alt="" width="20px"/>
+                            <p>Listenning</p>
+                        </li>
+                        <li class='flex gap-2'>
+                            <img src="./image/writing.png" alt="" width="20px"/>
+                            <p>Writing</p>
+                        </li>
+                        <li class='flex gap-1'>
+                            <img src="./image/speaking.png" alt="" width="20px"/>
+                            <p>Speaking</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+
+    <div class="relative  w-44 h-44 container mx-auto right-48">
+        <!-- <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400  opacity-15"></span>
+       
+      
+        <span class="relative inline-flex rounded-ful bg-sky-500"></span> -->
+        <span class="animate-ping absolute inline-flex  rounded-full w-72 h-72 bg-teal-500 opacity-10 z-10"></span>
+    <div class="flex justify-between gap-14 absolute opacity-100 mt-12">
+           
+
+
+        <div class="flex gap-3 border-2  border-teal-500 rounded-xl h-14 mt-24 mr-8 bg-white z-30">
+            <div class="bg-teal-500 rounded-lg p-1 float-start w-12  ">
+                <img class="mt-1" src="./image/icon1.png" alt="">
+            </div>
+            <div class="">
+                <h2>2K+</h2>
+                <h4 class="whitespace-nowrap">Video Courses</h4>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="  gap-3 border-2 border-teal-500 rounded-xl justify-center bg-white z-40 absolute p-1 ml-24">
+                <div class="bg-teal-500 rounded-lg p-1 w-18 mb-4">
+                    <img class="mt-1" src="./image/icon1.png" alt="" width="35px">
+                </div>
+                <div>
+                    <h2 class="text-center mb-2">5K+</h2>
+                    <P class="whitespace-nowrap text-sm">Online Courses</P>
+               
+                </div>
+            </div>
+            <div class=" flex gap-3 border-2 border-teal-500 rounded-xl justify-center mt-48 bg-white z-40 absolute ml-24" >
+                <div class="bg-teal-500 rounded-lg w-12">
+                    <img class="mt-1" src="./image/icon1.png" alt="" width="35px">
+                </div>
+                <div class="p-1">
+                    <h3>Tutors</h3>
+                    <h2 class="whitespace-nowrap">250</h2>
+                </div>
+            </div>
+        </div>
+            
+      
+     </div>
+    <span class="relative inline-flex rounded-ful bg-[#20B486] w-96 h-96 rounded-full opacity-25 z-20 ml-10"></span>
+      </div>
+
+
+
+      
+</div>
+
+
+
+<br><br><br><br><br><br>
+
+<br><br><br><br><br><br>
+
+
+
+<div class="text-center mx-auto mb-12">
+    <div class="container text-center mx-auto flex gap-20 justify-center">
+        <div>
+            <h1 class="text-3xl">
+                <b class="text-teal-500">250+ </b><br>Collaboration
+            </h1>
+        </div>
+        <div class="self-center">
+            <img src="./image/duolingo.png" alt="">
+        </div>
+        <div class="self-center">
+            <img src="./image/Codecov.png" alt="">
+        </div>
+        <div class="self-center">
+            <img src="./image/UserTesting (logo — Black).png" alt="">
+        </div>
+        <div class="self-center">
+            <img src="./image/Magic Leap (logo — Black).png" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="container mx-auto text-center bg-[#fbfbfb]">
+    <p class="text-teal-500 mb-4">Our Services</p>
+    <h1 class="text-4xl font-bold mb-6">Company</h1>
+    <div class="flex justify-center container mx-auto gap-10 p-3 mb-9">
+        <div class="p-3 bg-white border-gray-500 rounded-xl w-96">
+            <div class="bg-white flex mb-6 gap-11">
+                <img src="./image/_phone.png" alt="">
+                <p>AI CHAT BOT</p>
+            </div>
+            <p class="text-2xl mb-6 text-start">TEXT CHÚ THÍCH</p>
+            <p class="text-xl text-start">Learn more ></p>
+        </div>
+        <div class="p-3 bg-white border-gray-500 rounded-xl  w-96">
+            <div class="bg-white flex mb-6 gap-11">
+                <img src="./image/_phone.png" alt="">
+                <p >AI CHAT BOT</p>
+            </div>
+            <p class="text-2xl mb-6 text-start">TEXT CHÚ THÍCH</p>
+            <p class="text-xl text-start">Learn more ></p>
+        </div>
+        <div class="p-3 bg-white border-gray-500 rounded-xl  w-96">
+            <div class="bg-white flex mb-6 gap-11">
+                <img src="./image/_phone.png" alt="">
+                <p>AI CHAT BOT</p>
+            </div>
+            <p class="text-2xl mb-6 text-start">TEXT CHÚ THÍCH</p>
+            <p class="text-xl text-start">Learn more ></p>
+        </div>
+    </div>
+
+    <div class="ml-32">
+        <p class="text-teal-500 mb-4 text-start">Explore Programs</p>
+        <p class="text-2xl font-bold mb-4 text-start">Course</p>
+        <p class="text-start">Let's join our famous class, the knowledge provided will definitely be useful for you.</p>
+    </div>
+
+    <div class="flex justify-center gap-9 ml-32">
+        <div class="p-2 border-red-500 rounded-lg w-96">
+            <img class="mb-5" src="./image/Image1.png" alt="">
+            <p class="text-teal-500 mb-3 text-start">Design</p>
+            <div class="flex justify-between">
+                <p class="text-teal-500 mb-3 text-start">Figma UI UX Design..</p>
+                <img src="./image/Icon wrap.png" alt="">
+            </div>
+            <p class="font-normal text-start">
+                Use Figma to get a job in UI Design, User Interface, User Experience design.
+            </p>
+            <div class="flex gap-3">
+                <p>4.3</p>
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <p>(16,325)</p>
+            </div>
+
+            <div class="flex">
+                <img src="./image/Avatar1.png" alt="">
+                <div class="flex justify-between">
+                    <p>Jane Cooper<br>2001 Enrolled</p>
+                    <p class="text-teal-500">$17.84</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-2 border-red-500 rounded-lg w-96">
+            <img class="mb-5" src="./image/Image1.png" alt="">
+            <p class="text-teal-500 mb-3 text-start">Design</p>
+            <div class="flex justify-between">
+                <p class="text-teal-500 mb-3 text-start">Figma UI UX Design..</p>
+                <img src="./image/Icon wrap.png" alt="">
+            </div>
+            <p class="font-normal text-start">
+                Use Figma to get a job in UI Design, User Interface, User Experience design.
+            </p>
+            <div class="flex gap-3">
+                <p>4.3</p>
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <p>(16,325)</p>
+            </div>
+
+            <div class="flex">
+                <img src="./image/Avatar1.png" alt="">
+                <div class="flex justify-between">
+                    <p>Jane Cooper<br>2001 Enrolled</p>
+                    <p class="text-teal-500">$17.84</p>
+                </div>
+            </div>
+        </div>
+        <div class="p-2 border-red-500 rounded-lg w-96">
+            <img class="mb-5" src="./image/Image1.png" alt="">
+            <p class="text-teal-500 mb-3 text-start">Design</p>
+            <div class="flex justify-between">
+                <p class="text-teal-500 mb-3 text-start">Figma UI UX Design..</p>
+                <img src="./image/Icon wrap.png" alt="">
+            </div>
+            <p class="font-normal text-start">
+                Use Figma to get a job in UI Design, User Interface, User Experience design.
+            </p>
+            <div class="flex gap-3">
+                <p>4.3</p>
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <img src="./image/Star 1.png" alt="" width="12px">
+                <p>(16,325)</p>
+            </div>
+
+            <div class="flex">
+                <img src="./image/Avatar1.png" alt="">
+                <div class="flex justify-between">
+                    <p>Jane Cooper<br>2001 Enrolled</p>
+                    <p class="text-teal-500">$17.84</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div >
+
+
+
+
+
+  
+</body>
+</html>
